@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rolet Keberuntungan</title>
+    <style>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">ROLET KEBERUNTUNGAN</div>
+        <div class="grid" id="prizes">
+            <div>Rp 2.888</div>
+            <div>Rp 200.000</div>
+            <div>Rp 99.000.000</div>
+            <div>Rp 12.888</div>
+            <div>Rp 5.888</div>
+            <div>Vivo TWS 3e</div>
+            <div>Rp 1.888</div>
+            <div>Rp 3.888</div>
+            <div>Mobil Keluarga</div>
+            <div>Rp 5.888</div>
+            <div>Rp 8.888.888</div>
+            <div>Honda CBR650R</div>
+            <div>Rp 100.000</div>
+            <div>Rp 800.000</div>
+            <div>Rp 2.888.888</div>
+            <div>Vivo X100 Pro</div>
+            <div>Rp 8.888</div>
+            <div>Rp 1.888</div>
+        </div>
+        <button class="button" onclick="spin()">PUTAR SEKARANG</button>
+        <div class="details">
+            <div>event berlangsung</div>
+            <div>Tingkat kemenangan 100%</div>
+        </div>
+        <div class="social-media">
+            <img src="fb.png" alt="Facebook">
+            <img src="twit.png" alt="Twitter">
+            <img src="wa.png" alt="WhatsApp">
+            <img src="tele.png" alt="Telegram">
+        </div>
+    </div>
+    <div class="footer">
+        <div>Daftar sekarang</div>
+        <div>Unduh aplikasi</div>
+        <div>Web</div>
+        <div>Customer</div>
+    </div>
+
+    <script>
+        function spin() {
+            const prizes = document.querySelectorAll('#prizes div');
+            const randomIndex = Math.floor(Math.random() * prizes.length);
+            const prize = prizes[randomIndex].innerText;
+            alert(`Selamat! Anda memenangkan ${prize}`);
+        }
+    </script>
+</body>
+</html>

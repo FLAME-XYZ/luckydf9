@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rolet Keberuntungan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #800000;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 10px;
+        }
+        .grid div {
+            background-color: white;
+            color: black;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        .button {
+            background-color: orange;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            margin: 20px 0;
+        }
+        .details {
+            margin-top: 20px;
+            background-color: #b22222;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .details div {
+            margin: 5px 0;
+        }
+        .social-media {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .social-media img {
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+        }
+        .footer {
+            display: flex;
+            justify-content: space-around;
+            background-color: #4b0000;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .footer div {
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">ROLET KEBERUNTUNGAN</div>
+        <div class="grid">
+            <div>Rp 2.888</div>
+            <div>Rp 200.000</div>
+            <div>Rp 99.000.000</div>
+            <div>Rp 12.888</div>
+            <div>Rp 5.888</div>
+            <div>Vivo TWS 3e</div>
+            <div>Rp 1.888</div>
+            <div>Rp 3.888</div>
+            <div>Mobil Keluarga</div>
+            <div>Rp 5.888</div>
+            <div>Rp 8.888.888</div>
+            <div>Honda CBR650R</div>
+            <div>Rp 100.000</div>
+            <div>Rp 800.000</div>
+            <div>Rp 2.888.888</div>
+            <div>Vivo X100 Pro</div>
+            <div>Rp 8.888</div>
+            <div>Rp 1.888</div>
+        </div>
+        <button class="button">PUTAR SEKARANG</button>
+        <div class="details">
+            <div>event berlangsung</div>
+            <div>Tingkat kemenangan 100%</div>
+        </div>
+        <div class="social-media">
+            <img src="fb.png" alt="Facebook">
+            <img src="twit.png" alt="Twitter">
+            <img src="wa.png" alt="WhatsApp">
+            <img src="tele.png" alt="Telegram">
+        </div>
+    </div>
+    <div class="footer">
+        <div>Daftar sekarang</div>
+        <div>Unduh aplikasi</div>
+        <div>Web</div>
+        <div>Customer</div>
+    </div>
+</body>
+</html>
